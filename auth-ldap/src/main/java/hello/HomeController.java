@@ -12,7 +12,7 @@ public class HomeController {
     }
 	
 	public void setQ(){
-		
+		System.out.println();
 	}
 
 }
