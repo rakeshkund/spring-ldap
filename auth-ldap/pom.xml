@@ -38,6 +38,22 @@
 		<!-- <dependency> <groupId>org.aspectj</groupId> <artifactId>aspectjweaver</artifactId> 
 			</dependency> -->
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>myMavenRepo.read</id>
+			<name>MavenRepoRead</name>
+			<url>https://mymavenrepo.com/repo/1ojvtniL5Q3jGpZXxxMO/</url>
+		</repository>
+	</repositories>
+	<distributionManagement>
+		<repository>
+			<id>myMavenRepo.write</id>
+			<name>MavenRepoWrite</name>
+			<url>https://mymavenrepo.com/repo/yqxql4k6hFTjHGZnxieo/</url>
+		</repository>
+	</distributionManagement>
+
 	<parent>
 
 		<groupId>org.springframework.boot</groupId>
