@@ -39,13 +39,13 @@
 			</dependency> -->
 	</dependencies>
 
-	<repositories>
+<!-- 	<repositories>
 		<repository>
 			<id>myMavenRepo.read</id>
 			<name>MavenRepoRead</name>
 			<url>https://mymavenrepo.com/repo/1ojvtniL5Q3jGpZXxxMO/</url>
 		</repository>
-	</repositories>
+	</repositories> -->
 	<distributionManagement>
 		<repository>
 			<id>myMavenRepo.write</id>
